@@ -20,6 +20,6 @@ resource "aws_instance" "this" {
   instance_type = "t2.micro"
 
   tags = {
-    Owner = var.name
+    Name = var.name
   }
 }
